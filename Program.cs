@@ -46,7 +46,7 @@ namespace LicensePlateValidator
                     return false;
                 }
             }
-            if (plate[5] == 'o')
+            if (plate[5] == 'O')
             {
                 Console.WriteLine("Invalid plate format: Character at index 5 " +
                     " is disallowed letter O");
